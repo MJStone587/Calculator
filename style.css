@@ -45,6 +45,12 @@
     border-radius: 5px;
     background-color: white;
 }
+.row2 #delete:hover {
+    background-color: rgb(255, 170, 170);
+}
+.row2 #clear:hover {
+    background-color: rgb(160, 160, 253);
+}
 .row3 {
     display: flex;
     flex-flow: row nowrap;
@@ -114,4 +120,14 @@
 }
 .zero {
     padding-right: 10px;
+}
+.plus {
+    padding-left: 45px;
+}
+.calculator h3:hover {
+    cursor: pointer;
+    background-color: rgb(199, 199, 199);
+}
+.calculator #modifier:hover {
+    background-color: rgb(147, 192, 192);
 }
